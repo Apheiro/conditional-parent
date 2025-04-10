@@ -1,0 +1,41 @@
+{
+  "name": "c-parent",
+  "version": "1.0.0",
+  "description": "A flexible, lightweight React component that dynamically wraps its children in any HTML tag or custom component, absorbing their props, with an option to disable the wrapper and render just the content on demand.",
+  "main": "dist/library.js",
+  "module": "dist/library.es.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/library.es.js",
+      "require": "./dist/library.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apheiros",
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.2",
+    "rollup": "^4.39.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}
