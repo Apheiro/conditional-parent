@@ -1,5 +1,5 @@
 <div align="center">
-	<img width="250" src="public/cParent.svg" alt="conditional parent">
+	<img width="250" src="https://github.com/Apheiro/conditional-parent/raw/main/public/cParent.svg" alt="conditional parent">
 </div>
 
 
@@ -37,5 +37,5 @@ The cParent component accepts two primary props:
 # Example
 
  <div align="center">
-	<img width="500" src="public/code.gif" alt="conditional parent">
+	<img width="500" src="https://github.com/Apheiro/conditional-parent/raw/main/public/code.gif" alt="conditional parent">
 </div>
