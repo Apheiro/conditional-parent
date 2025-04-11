@@ -2,9 +2,15 @@
   "name": "c-parent",
   "version": "1.0.0",
   "description": "A flexible, lightweight React component that dynamically wraps its children in any HTML tag or custom component, absorbing their props, with an option to disable the wrapper and render just the content on demand.",
+  "author": "Eyen Tuyon (https://github.com/Apheiro)",
   "main": "dist/library.js",
   "module": "dist/library.es.js",
   "types": "dist/types/index.d.ts",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
   "exports": {
     ".": {
       "import": "./dist/library.es.js",
@@ -12,16 +18,10 @@
       "types": "./dist/types/index.d.ts"
     }
   },
-  "files": [
-    "dist/"
-  ],
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Apheiros",
-  "license": "MIT",
-  "type": "module",
   "peerDependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
