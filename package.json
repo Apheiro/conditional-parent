@@ -1,6 +1,6 @@
 {
   "name": "c-parent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A flexible, lightweight React component that dynamically wraps its children in any HTML tag or custom component, absorbing their props, with an option to disable the wrapper and render just the content on demand.",
   "author": "Eyen Tuyon (https://github.com/Apheiro)",
   "main": "dist/library.js",
